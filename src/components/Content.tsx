@@ -6,8 +6,9 @@ import '../styles/content.scss';
 
 interface contentProps {
   selectedGenre: {
-    id: number
-    title: string
+    id: number;
+    name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
+    title: string;
   },
 }
 
